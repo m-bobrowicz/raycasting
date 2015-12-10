@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    #menu {
+        width: 16%;
+        position: absolute;
+        top: 0px;
+    }
+    #menu > .row {
+        margin: 15px 15px;
+    }
+    button {
+
+    }
+    canvas {
+        position: absolute;
+        left: 0px;
+        top:0px;
+        float:left;
+    }
+    #background{
+        z-index: 0;
+    }
+    #myCanvas{
+        z-index: 2;
+    }
+    #debugCanvas{
+        z-index: 1;
+    }
+
+</style>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/ramda/dist/ramda.min.js"></script>
+<script src="bower_components/lodash/lodash.min.js"></script>
+<script src="build/script.js"></script>
+<body>
+<canvas id="background"></canvas>
+<canvas id="debugCanvas"></canvas>
+<canvas id="myCanvas"></canvas>
+</body>
+</html>

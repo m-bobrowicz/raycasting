@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "ts/Geometry/Circle.ts",
+        "ts/Geometry/Drawable.ts",
+        "ts/Geometry/Edgeable.ts",
+        "ts/Geometry/Line.ts",
+        "ts/Geometry/Point.ts",
+        "ts/Geometry/Polygon.ts",
+        "ts/Graphics/Animation.ts",
+        "ts/Graphics/Drawer.ts",
+        "ts/Logic/Engine.ts",
+        "ts/Logic/Ray.ts",
+        "ts/main.ts",
+        "typings/jquery/jquery.d.ts",
+        "typings/lodash/lodash.d.ts",
+        "typings/tsd.d.ts"
+    ],
+    "compileOnSave": false,
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
